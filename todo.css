@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    font-family: Dancing Script;
+}
+
+input[type="text"], input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+button {
+    font-family: Nunito Sans  sans-serif;
+    padding: 10px 20px;
+    background-color: #5C6BC0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.1s ease; /* Add a transition effect */
+}
+
+button:hover {
+    background-color: #008000; /* Change the background color to red when hovering */
+}
+
+.js-todo-list button {
+    margin-left: 20px;
+    background-color: #3F51B5;
+    transition: background-color 0.1s ease;
+}
+
+.js-todo-list button:hover {
+    
+    background-color: #f00; /* Change the background color to green when hovering */
+}
+.js-todo-list p {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-left: 5px solid #3F51B5;
+    display: flex; /* Use flexbox to align the items */
+    align-items: center; /* Vertically align the items in the center */
+    justify-content: space-between; /* Distribute the space evenly between the items */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-left: 5px solid #3F51B5;
+}
+
+.js-todo-list button {
+    margin-left: 10px;
+        display: inline-block;
+    }
+
+    .js-todo-list p {
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border-left: 5px solid #3F51B5;
+        transition: color 0.5s;
+}.js-todo-list p {
+    font-size: 18px; /* Adjust the font size of the todo items */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-left: 5px solid #3F51B5;
+}
+
+.js-todo-list button {
+    margin-left: 20px; /* Add some space between the todo name and the delete button */
+}
+.todo-name {
+    margin-right: 60px; /* Add a gap between the todo name and the due date */
+}
+.todo-date {
+    margin-right: 70px; /* Add a gap between the todo name and the due date */
+}.todo-item {
+    display: grid; /* Use grid to create a layout */
+    grid-template-columns: 1fr 1fr auto; /* Create three columns: two take up the same amount of space, and the third takes up only the space necessary for the content */
+    gap: 10px; /* Add a gap between the grid items */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-left: 5px solid #3F51B5;
+    align-items: center; /* Vertically align the items in the center */
+}
+.todo-name, .todo-date {
+    font-family:  Arial, Helvetica, sans-serif; /* Change the font family of the todo items */
+    
+    font-size: auto; /* Adjust the font size of the todo items */
+}
+
